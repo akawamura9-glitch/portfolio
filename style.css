@@ -59,8 +59,9 @@ ul { list-style: none; }
 .project-detail-body { display: flex; flex-direction: column; gap: 32px; }
 .project-detail-block h3 { margin-bottom: 12px; color: #46729F; font-size: 18px; }
 .project-detail-block p { color: #555; font-size: 15px; }
-.project-detail-actions { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 40px; }
-.project-detail-actions .button-outline { order: initial; align-self: auto; margin: 0; }
+.project-detail-actions { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-bottom: 40px; }
+.project-detail-actions .button-outline { order: 1; align-self: auto; margin: 0; }
+.project-detail-actions .button-outline[href="index.html#projects"] { order: 0; }
 
 .about .container { width: min(920px, 90%); }
 .about-inner { display: flex; justify-content: center; align-items: center; gap: 54px; margin-bottom: 120px; }
